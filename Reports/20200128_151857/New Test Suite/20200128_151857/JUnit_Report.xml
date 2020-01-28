@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="New Test Suite" time="45" tests="2" failures="0" errors="0">
+    <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="45" timestamp="2020-01-28 15:18:59" hostname="AUE2KOR - OMTPGCN1064487D.rbeigcn.com" id="Test Suites/New Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\aue2kor\\Katalon Studio\\Run\\Reports\\20200128_151857\\New Test Suite\\20200128_151857"/>
+            <property name="logFiles" value="C:\\Users\\aue2kor\\Katalon Studio\\Run\\Reports\\20200128_151857\\New Test Suite\\20200128_151857\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="AUE2KOR - OMTPGCN1064487D.rbeigcn.com"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.2.4"/>
+            <property name="browser" value="Firefox 72.0"/>
+            <property name="hostAddress" value="10.10.62.25"/>
+            <property name="sessionId" value="54a19012-7df6-4956-a2c2-00bcbe007200"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/LogInAndVerify" classname="Test Cases/LogInAndVerify" status="PASSED">
+            <system-out>2020-01-28 15:18:59 - [TEST_CASE][PASSED] - Test Cases/LogInAndVerify: Test Cases/LogInAndVerify&#xD;
+&#xD;
+2020-01-28 15:19:00 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData"): null&#xD;
+&#xD;
+2020-01-28 15:19:00 - [TEST_STEP][PASSED] - out.println("[Row Count] : " + excelTestData.getRowNumbers()): null&#xD;
+&#xD;
+2020-01-28 15:19:00 - [TEST_STEP][PASSED] - out.println(excelTestData.getValue(2, 3)): null&#xD;
+&#xD;
+2020-01-28 15:19:00 - [TEST_STEP][PASSED] - openBrowser(excelTestData.getValue(2, 3)): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'&#xD;
+&#xD;
+2020-01-28 15:19:00 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2020-01-28 15:19:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2020-01-28 15:19:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'&#xD;
+&#xD;
+2020-01-28 15:19:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2020-01-28 15:19:12 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2020-01-28 15:19:12 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully&#xD;
+&#xD;
+2020-01-28 15:19:12 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2020-01-28 15:19:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/OrangeHRM_Objects/LogIn"), excelTestData.getValue(3, 3)): Keys 'Admin' sent to object: 'Object Repository/OrangeHRM_Objects/LogIn'&#xD;
+&#xD;
+2020-01-28 15:19:13 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/OrangeHRM_Objects/LogIn'&#xD;
+&#xD;
+2020-01-28 15:19:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/OrangeHRM_Objects/LogPw"), excelTestData.getValue(4, 3)): Keys 'admin123' sent to object: 'Object Repository/OrangeHRM_Objects/LogPw'&#xD;
+&#xD;
+2020-01-28 15:19:13 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/OrangeHRM_Objects/LogPw'&#xD;
+&#xD;
+2020-01-28 15:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_Objects/LogInBtn")): Object: 'Object Repository/OrangeHRM_Objects/LogInBtn' is clicked on&#xD;
+&#xD;
+2020-01-28 15:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_Objects/LogInBtn' is clicked on&#xD;
+&#xD;
+2020-01-28 15:19:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2020-01-28 15:19:21 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2020-01-28 15:19:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/OrangeHRM_Objects/WelAdm")): Object 'Object Repository/OrangeHRM_Objects/WelAdm' is visible&#xD;
+&#xD;
+2020-01-28 15:19:21 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_Objects/WelAdm' is visible</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+            <system-out>2020-01-28 15:19:21 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login&#xD;
+&#xD;
+2020-01-28 15:19:21 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData"): null&#xD;
+&#xD;
+2020-01-28 15:19:21 - [TEST_STEP][PASSED] - out.println("[Row Count] : " + excelTestData.getRowNumbers()): null&#xD;
+&#xD;
+2020-01-28 15:19:21 - [TEST_STEP][PASSED] - out.println(excelTestData.getValue(2, 3)): null&#xD;
+&#xD;
+2020-01-28 15:19:21 - [TEST_STEP][PASSED] - openBrowser(excelTestData.getValue(2, 3)): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'&#xD;
+&#xD;
+2020-01-28 15:19:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2020-01-28 15:19:24 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2020-01-28 15:19:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'&#xD;
+&#xD;
+2020-01-28 15:19:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2020-01-28 15:19:35 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2020-01-28 15:19:35 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully&#xD;
+&#xD;
+2020-01-28 15:19:35 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2020-01-28 15:19:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/OrangeHRM_Objects/LogIn"), excelTestData.getValue(3, 3)): Keys 'Admin' sent to object: 'Object Repository/OrangeHRM_Objects/LogIn'&#xD;
+&#xD;
+2020-01-28 15:19:35 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/OrangeHRM_Objects/LogIn'&#xD;
+&#xD;
+2020-01-28 15:19:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/OrangeHRM_Objects/LogPw"), excelTestData.getValue(4, 3)): Keys 'admin123' sent to object: 'Object Repository/OrangeHRM_Objects/LogPw'&#xD;
+&#xD;
+2020-01-28 15:19:35 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/OrangeHRM_Objects/LogPw'&#xD;
+&#xD;
+2020-01-28 15:19:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_Objects/LogInBtn")): Object: 'Object Repository/OrangeHRM_Objects/LogInBtn' is clicked on&#xD;
+&#xD;
+2020-01-28 15:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_Objects/LogInBtn' is clicked on&#xD;
+&#xD;
+2020-01-28 15:19:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2020-01-28 15:19:43 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2020-01-28 15:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_Objects/WelAdm")): Object: 'Object Repository/OrangeHRM_Objects/WelAdm' is clicked on&#xD;
+&#xD;
+2020-01-28 15:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_Objects/WelAdm' is clicked on&#xD;
+&#xD;
+2020-01-28 15:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_Objects/LogOut")): Object: 'Object Repository/OrangeHRM_Objects/LogOut' is clicked on&#xD;
+&#xD;
+2020-01-28 15:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_Objects/LogOut' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-01-28 15:18:59 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null</system-out>
+        <system-err>2020-01-28 15:18:59 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

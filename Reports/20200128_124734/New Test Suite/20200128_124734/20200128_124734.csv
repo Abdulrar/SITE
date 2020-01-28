@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Firefox 72.0,,,2020-01-28 12:47:36,2020-01-28 12:48:20,43.156s,INCOMPLETE
+,,,,,,,
+Test Cases/LogInAndVerify,Firefox 72.0,,,2020-01-28 12:47:37,2020-01-28 12:47:58,20.894s,PASSED
+"excelTestData = findTestData(""Data Files/TestData"")",Firefox 72.0,,,2020-01-28 12:47:37,2020-01-28 12:47:38,0.735s,PASSED
+"out.println(""[Row Count] : "" + excelTestData.getRowNumbers())",Firefox 72.0,,,2020-01-28 12:47:38,2020-01-28 12:47:38,0.007s,PASSED
+"out.println(excelTestData.getValue(2, 3))",Firefox 72.0,,,2020-01-28 12:47:38,2020-01-28 12:47:38,0.023s,PASSED
+"openBrowser(excelTestData.getValue(2, 3))",Firefox 72.0,,,2020-01-28 12:47:38,2020-01-28 12:47:49,11.651s,PASSED
+maximizeWindow(),Firefox 72.0,,,2020-01-28 12:47:49,2020-01-28 12:47:50,0.313s,PASSED
+waitForPageLoad(2),Firefox 72.0,,,2020-01-28 12:47:50,2020-01-28 12:47:50,0.056s,PASSED
+"sendKeys(findTestObject(""Object Repository/OrangeHRM_Objects/LogIn""), excelTestData.getValue(3, 3))",Firefox 72.0,,,2020-01-28 12:47:50,2020-01-28 12:47:50,0.132s,PASSED
+"sendKeys(findTestObject(""Object Repository/OrangeHRM_Objects/LogPw""), excelTestData.getValue(4, 3))",Firefox 72.0,,,2020-01-28 12:47:50,2020-01-28 12:47:50,0.111s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Objects/LogInBtn""))",Firefox 72.0,,,2020-01-28 12:47:50,2020-01-28 12:47:54,4.392s,PASSED
+delay(3),Firefox 72.0,,,2020-01-28 12:47:54,2020-01-28 12:47:57,3.035s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/OrangeHRM_Objects/WelAdm""))",Firefox 72.0,,,2020-01-28 12:47:57,2020-01-28 12:47:58,0.159s,PASSED
+,,,,,,,
+Test Cases/Login,Firefox 72.0,,,2020-01-28 12:47:58,2020-01-28 12:48:20,22.023s,PASSED
+"excelTestData = findTestData(""Data Files/TestData"")",Firefox 72.0,,,2020-01-28 12:47:58,2020-01-28 12:47:58,0.036s,PASSED
+"out.println(""[Row Count] : "" + excelTestData.getRowNumbers())",Firefox 72.0,,,2020-01-28 12:47:58,2020-01-28 12:47:58,0.001s,PASSED
+"out.println(excelTestData.getValue(2, 3))",Firefox 72.0,,,2020-01-28 12:47:58,2020-01-28 12:47:58,0.001s,PASSED
+"openBrowser(excelTestData.getValue(2, 3))",Firefox 72.0,,,2020-01-28 12:47:58,2020-01-28 12:48:10,12.223s,PASSED
+maximizeWindow(),Firefox 72.0,,,2020-01-28 12:48:10,2020-01-28 12:48:10,0.285s,PASSED
+waitForPageLoad(2),Firefox 72.0,,,2020-01-28 12:48:10,2020-01-28 12:48:10,0.035s,PASSED
+"sendKeys(findTestObject(""Object Repository/OrangeHRM_Objects/LogIn""), excelTestData.getValue(3, 3))",Firefox 72.0,,,2020-01-28 12:48:10,2020-01-28 12:48:10,0.097s,PASSED
+"sendKeys(findTestObject(""Object Repository/OrangeHRM_Objects/LogPw""), excelTestData.getValue(4, 3))",Firefox 72.0,,,2020-01-28 12:48:10,2020-01-28 12:48:11,0.074s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Objects/LogInBtn""))",Firefox 72.0,,,2020-01-28 12:48:11,2020-01-28 12:48:15,4.472s,PASSED
+delay(3),Firefox 72.0,,,2020-01-28 12:48:15,2020-01-28 12:48:18,3.009s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Objects/WelAdm""))",Firefox 72.0,,,2020-01-28 12:48:18,2020-01-28 12:48:18,0.324s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Objects/LogOut""))",Firefox 72.0,,,2020-01-28 12:48:18,2020-01-28 12:48:20,1.283s,PASSED
